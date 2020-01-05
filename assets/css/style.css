@@ -76,12 +76,12 @@ a {
 
 /* Styles content in main body */
 
-
 #content-box {
     background-color: #fff;
 	padding: 30px;
     border: 1px solid #ddd;
     float: left;
+    margin: 0 0 40px 0;
 }
 
 h1 {
@@ -218,6 +218,11 @@ textarea {
     #content-box {
         width: 70%;
         margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #content-wrapper {
+        margin: 0 20px 0 0;
     }
 
 }
@@ -230,15 +235,11 @@ textarea {
 
     .container {
         max-width: 768px;
-    }
-
-    #main-container {
-        padding-right: 20px;
+        width: 100%;
     }
 
     #content-box {
         width: 100%;
-        margin-right: 20px;
     }
 
 }
@@ -253,14 +254,9 @@ textarea {
         max-width: 640px;
     }
 
-    /* #main-container {
-        min-height: calc(100vh - 70px);
-    } */
-
     #content-box {
-        width: 90%;
+        width: 100%;
         box-align: center;
-        margin: 0 auto;
     }
 
     #content-box img {
