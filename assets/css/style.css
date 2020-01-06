@@ -134,7 +134,7 @@ footer {
     background-color: #fff;
 	padding: 30px;
     border: 1px solid #ddd;
-    height: 650px;
+    float: left;
 }
 
 .gallery h2 {
@@ -247,7 +247,15 @@ textarea {
 @media screen and (max-width: 640px) {
 
     #brand {
-        margin-left: 20px;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+        background-color: white;
+        vertical-align: center;
     }
 
     .container {
@@ -257,6 +265,7 @@ textarea {
     #content-box {
         width: 100%;
         box-align: center;
+        margin-top: 40px;
     }
 
     #content-box img {
