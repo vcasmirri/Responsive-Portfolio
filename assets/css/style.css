@@ -328,5 +328,14 @@ textarea {
     #gallery-box {
         margin-top: 40px;
     }
+
+    #gallery-wrapper {
+        width: 100%;
+        float: left;
+    }
     
+    .gallery {
+        width: 90%;
+    }
+
 }
