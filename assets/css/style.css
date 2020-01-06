@@ -123,18 +123,51 @@ footer {
 /* Styles portfolio page and gallery */
 
 .gallery {
-    float: left;
     position: relative;
-    overflow: auto;
-    width: 250px;
+    float: left;
+    width: 274px;
     margin: 20px 0 25px;
-}
+    overflow: auto;
+  }
+  
+  .gallery:nth-child(odd) {
+    margin-right: 40px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .gallery h2 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
 
-#gallery-box {
+  #gallery-box {
     background-color: #fff;
 	padding: 30px;
     border: 1px solid #ddd;
     float: left;
+}
+
+
+/* .gallery {
+    float: left;
+    position: relative;
+    overflow: auto;
+    width: 50%;
+    margin: 20px 40px 25px;
 }
 
 .gallery h2 {
@@ -154,9 +187,13 @@ footer {
     width: 100%;
 }
 
-.gallery {
+#gallery-wrapper {
+    width: 100%;
+} */
+
+/* .gallery {
     margin-right: 40px;
-  }
+  } */
 
 /* Styles contact form element */
 
@@ -221,6 +258,12 @@ textarea {
         margin-right: 20px;
     }
 
+    #gallery-box {
+        width: 70%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     #content-wrapper {
         margin: 0 20px 0 0;
     }
@@ -239,6 +282,10 @@ textarea {
     }
 
     #content-box {
+        width: 100%;
+    }
+
+    #gallery-box {
         width: 100%;
     }
 
@@ -276,6 +323,10 @@ textarea {
 
     #content-box p {
         float: left;
+    }
+
+    #gallery-box {
+        margin-top: 40px;
     }
     
 }
