@@ -297,7 +297,8 @@ textarea {
     }
 
     #gallery-box {
-        width: 100%;
+        width: auto;
+        margin: auto;
     }
 
     #contact-box {
@@ -343,7 +344,7 @@ textarea {
     }
 
     #gallery-box {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     #gallery-wrapper {
@@ -352,7 +353,7 @@ textarea {
     }
     
     .gallery {
-        width: 90%;
+        margin: auto;
     }
 
     #contact-box {
