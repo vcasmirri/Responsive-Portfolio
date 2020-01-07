@@ -201,7 +201,9 @@ footer {
     background-color: #fff;
 	padding: 30px;
     border: 1px solid #ddd;
-    height: 650px;
+    float: left;
+    margin: 0 0 40px 0;
+    width: 100%;
 }
 
 #contact ul {
@@ -303,6 +305,7 @@ textarea {
 
     #contact-box {
         width: 100%;
+        margin: auto;
     }
 
 }
@@ -345,6 +348,7 @@ textarea {
 
     #gallery-box {
         margin-top: 20px;
+        margin-bottom: 80px;
     }
 
     #gallery-wrapper {
@@ -353,7 +357,8 @@ textarea {
     }
     
     .gallery {
-        margin: auto;
+        /* margin: auto; */
+        width: 100%;
     }
 
     #contact-box {
