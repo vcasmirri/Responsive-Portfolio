@@ -11,7 +11,7 @@ body {
 /* Styles header and body containers */
 
 .container {
-    overflow: hidden;
+    /* overflow: hidden; */
     clear: both;
     margin: 0 auto;
     width: 100%;
@@ -264,6 +264,12 @@ textarea {
         margin-right: 20px;
     }
 
+    #contact-box {
+        width: 70%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     #content-wrapper {
         margin: 0 20px 0 0;
     }
@@ -281,11 +287,20 @@ textarea {
         width: 100%;
     }
 
+    #content-wrapper {
+        margin-left: 20px;
+    }
+
     #content-box {
-        width: 100%;
+        width: auto;
+        margin: auto;
     }
 
     #gallery-box {
+        width: 100%;
+    }
+
+    #contact-box {
         width: 100%;
     }
 
@@ -312,7 +327,8 @@ textarea {
     #content-box {
         width: 100%;
         box-align: center;
-        margin-top: 40px;
+        margin-top: 20px;
+        margin-bottom: 80px;
     }
 
     #content-box img {
@@ -323,6 +339,7 @@ textarea {
 
     #content-box p {
         float: left;
+        padding-top: 20px;
     }
 
     #gallery-box {
@@ -336,6 +353,11 @@ textarea {
     
     .gallery {
         width: 90%;
+    }
+
+    #contact-box {
+        width: 100%;
+        margin-top: 40px;
     }
 
 }
