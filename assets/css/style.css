@@ -122,6 +122,10 @@ footer {
 
 /* Styles portfolio page and gallery */
 
+/* I realize that my images stretch when at the smallest media query, 
+but I unfortunately ran out of time to tweak them further. I think the solution would likely be to contain each of the .gallery divs in another container
+and tweak it from there. */
+
 .gallery {
     position: relative;
     float: left;
